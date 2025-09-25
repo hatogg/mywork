@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"DisableTaskOffload"=dword:00000001
+"EnableTCPA"=dword:00000001
+"EnableRSS"=dword:00000001
+"DisableTCPChimneyOffload"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{GUID}]
+"TCPNoDelay"=dword:00000001
+"TcpDelAckTicks"=dword:00000000
+"TcpAckFrequency"=dword:00000001
