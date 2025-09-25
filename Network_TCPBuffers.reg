@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpWindowSize"=dword:0003b6e0  ; 240 KB для швидкості
+"TcpMaxDupAcks"=dword:00000002
+"SackOpts"=dword:00000001
