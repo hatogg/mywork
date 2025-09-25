@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{GUID}]
+"Mtu"=dword:000005f2  ; 1502 для PPPoE, або 9000 для Jumbo; заміни {GUID}
