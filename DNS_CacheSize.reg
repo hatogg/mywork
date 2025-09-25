@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+"MaxCacheSize"=dword:000f4240  ; 1 GB (замість дефолт 384 KB)
+"MaxCacheTtl"=dword:00015180  ; 90 хвилин TTL
