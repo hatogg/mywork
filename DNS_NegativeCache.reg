@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+"NegativeCacheTime"=dword:00000000
+"NegativeCacheTtl"=dword:00000000
